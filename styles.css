@@ -50,6 +50,7 @@ body {
 .right-container {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     background-color: blue;
     padding: 20px;
     font-weight: 400;
@@ -69,4 +70,37 @@ body {
     font-size: 14px;
     transition: all 0.3s ease;
     background-color: white;
+}
+.right-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 1000;
+}
+
+.right-container-TOP {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: -20px -20px 0 -20px;
+    padding: 20px;
+}
+.right-container-user-TOP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-container-user-save {
+    display: flex;
+    gap: 10px;
+}
+.right-container-user-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
