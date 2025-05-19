@@ -160,6 +160,15 @@ Xoa width va height neu khong muon cai vien (border)
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
     border-left: 5px solid #ff9900;
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 /* Example of moving a grid child */
